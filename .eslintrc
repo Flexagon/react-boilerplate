@@ -39,7 +39,8 @@
       ],
       "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
       "import/no-amd": false,
-      "one-var": 0
+      "one-var": 0,
+      "arrow-body-style": ["error", "as-needed"]
   },
   "globals": {
       "React": true,
