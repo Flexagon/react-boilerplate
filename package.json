@@ -1,0 +1,24 @@
+{
+  "name": "my-boilerplate",
+  "version": "1.0.0",
+  "description": "React Boilerplate",
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/Flexagon/react-boilerplate.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "author": "Max",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
